@@ -1,0 +1,97 @@
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #794d99;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 25px;
+    padding-inline: 25px;
+}
+
+
+.nav-ico img {
+    width: 50px;
+}
+
+.BurgerToggle {
+    display: none;
+
+    & img {
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.MainNavLinks {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.Nlink {
+    padding-inline: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: Karla;
+}
+
+.active {
+    background-color: #4c2f61;
+    border-radius: 35px;
+    padding-inline: 2px;
+    padding: block 5px;
+}
+
+
+
+/* Media queries  */
+
+
+@media (max-width:800px){
+    nav {
+        display: flex;
+        
+        justify-content: space-around;
+        padding: 15px 20px;
+        position: relative;
+    }
+
+    .nav-ico {
+        margin: 0 auto 
+    }
+    .BurgerToggle{
+        display: block;
+        cursor: pointer;
+        position: relative;
+        background: transparent;
+        border: none;
+        padding-inline: 10px;
+    }
+
+    .NavLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        background: #302046;
+        top: 100%;
+        left: 0;
+        height: 50vh;
+        width: 100%;
+        padding:15px 50px 15px 20px;
+        transform: translateX(-300%);
+        transition: transform 0.3s ease-out;
+
+       
+    }
+
+    .open {
+        transform: translateY(0%)
+    }
+    
+}
