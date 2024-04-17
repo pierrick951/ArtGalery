@@ -26,8 +26,8 @@ export default function Navbar() {
       </div>
       <div className={`${showMenu ? "open" : ""}   NavLinks`}>
         <Link to='/' className="Nlink">Home</Link>
-        <Link to='/astro' className="Nlink">Astro</Link>
-        <Link to='/constellation' className="Nlink">Constellation</Link>
+
+        <Link to='/constellation' className="Nlink">Product</Link>
         <Link to='/contact' className="Nlink">Contact</Link>
       </div>
     </nav>

@@ -1,7 +1,7 @@
 nav {
     position: fixed;
     width: 100%;
-    background-color: #794d99;
+  background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -32,10 +32,10 @@ nav {
 
 .Nlink {
     padding-inline: 15px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Karla;
 }
 
@@ -55,7 +55,7 @@ nav {
     nav {
         display: flex;
         
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 15px 20px;
         position: relative;
     }
@@ -78,7 +78,7 @@ nav {
         align-items: center;
         justify-content: center;
         position: absolute;
-        background: #302046;
+        background: rgba(0, 0, 0, 0.658);
         top: 100%;
         left: 0;
         height: 50vh;
