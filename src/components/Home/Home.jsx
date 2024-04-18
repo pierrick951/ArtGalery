@@ -1,4 +1,5 @@
-
+import HomeContainer1 from '../../Layouts/HomeContainer1/HomeContainer1'
+import HomeContainer2 from '../../Layouts/HomeContainer2/HomeContainer2'
 import './Home.css'
 export default function Home() {
 
@@ -14,11 +15,11 @@ export default function Home() {
         <section className='section1'>
           <h2 className='heading2'>A la une</h2>
          <div className="flexContainer">
-           <div className="firstGridBox">
-            <p>first box</p>
+           <div className="firstBox">
+             <HomeContainer1/>
            </div>
-           <div className="secondGridBox">
-            <p>second box</p>
+           <div className="secondBox">
+            <HomeContainer2/>
            </div>
          </div>
         </section>
