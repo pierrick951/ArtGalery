@@ -31,6 +31,7 @@ export default function Navbar() {
         <Link to='/contact' className="Nlink">Contact</Link>
       </div>
     </nav>
+  
   )
 }
 
