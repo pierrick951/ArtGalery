@@ -38,6 +38,14 @@ h1 {
     header {
         height: 50vh;
     }
+    .heading2 {
+        padding-block: 10px;
+        font-size: rem;
+        padding-inline: 10px;
+        font-family: Karla;
+        color: #f1f1f1;
+        width: 100%;
+    }
 
     
 }
@@ -74,7 +82,7 @@ h1 {
 
 .heading2 {
     padding-block: 40px;
-    font-size: 4.3rem;
+    font-size: 4rem;
     padding-inline: 80px;
     font-family: Karla;
     color: #f1f1f1;
@@ -107,3 +115,5 @@ h1 {
         overflow: hidden;
     }
 }
+
+
