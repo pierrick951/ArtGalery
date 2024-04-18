@@ -4,38 +4,86 @@
 }
 
 header {
-    background-image: url('../../../public/ArtGalleries.jpg');
-   height: 60vh;
-   width: 100%;
-   text-align: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   object-fit: cover;
-   background-size: cover;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   
+    background-image: url('../../../public/starry_header.jpg');
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: contain;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
-h1{
+h1 {
     font-size: 5rem;
     color: #f1f1f1;
     font-family: Karla;
 }
-.under-heading{
+
+.under-heading {
     font-size: 2rem;
     color: #f1f1f1;
 }
 
 
-@media (max-width:500px){
-    h1{
+@media (max-width:500px) {
+    h1 {
         font-size: 2.5rem;
     }
+
     header {
-       height: 40vh;
+        height: 40vh;
     }
 }
 
+
+
+
+/* Container behind the header */
+.centerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.section1 {
+    background-color: blue;
+    height: 100%;
+    width: 85%;
+}
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.heading2 {
+    padding-block: 40px;
+    font-size: 5.6rem;
+    padding-inline: 80px;
+    font-family: Karla;
+    width: 100%;
+}
+
+.firstGridBox {
+    background-color: green;
+    width: 60%;
+    overflow: hidden;
+}
+
+.secondGridBox{
+    width: 30%;
+    background-color: aquamarine;
+    overflow: hidden;
+}
