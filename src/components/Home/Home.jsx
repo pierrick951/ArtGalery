@@ -1,5 +1,6 @@
 import HomeContainer1 from '../../Layouts/HomeContainer1/HomeContainer1'
 import HomeContainer2 from '../../Layouts/HomeContainer2/HomeContainer2'
+import PresentationMusée from '../../Layouts/PresentationMusée/PresentationMusée'
 import './Home.css'
 export default function Home() {
 
@@ -22,6 +23,9 @@ export default function Home() {
             <HomeContainer2/>
            </div>
          </div>
+        </section>
+        <section className='section2'>
+          <PresentationMusée/>
         </section>
       </main>
     </div>

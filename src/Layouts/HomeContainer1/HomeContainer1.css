@@ -1,6 +1,8 @@
 .Homecontainer {
     display: flex;
     flex-direction: column;
+    text-align: center;
+ 
 }
 
 
@@ -18,7 +20,7 @@
        padding-block: 10px;
     }
     p {
-        max-width: 800px;
+        max-width: 500px;
         color: #f1f1f1;
         font-family: 'Courier New', Courier, monospace;
         font-size: 22px;
@@ -31,7 +33,7 @@
     overflow: hidden;
     & img{
         width: auto;
-        max-width:800px;
+        max-width:500px;
         border-radius: 35px;
      &:hover {
         transform: scale(1.2);

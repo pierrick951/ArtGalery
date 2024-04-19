@@ -72,6 +72,7 @@ h1 {
     padding-bottom: 50px;
     height: auto;
     width: 85%;
+  
 }
 .flexContainer {
     display: flex;
@@ -89,17 +90,16 @@ h1 {
     width: 100%;
 }
 
-.firstGridBox {
-    width: 60%;
-    overflow: hidden;
-}
+
 
 .secondBox{
-    width: 30%;
+    width: 20%;
+    height: 100%;
     overflow: hidden;
 }
 
 @media(max-width:958px){
+
     .secondBox{
         display: none;
     }
@@ -116,3 +116,11 @@ h1 {
 }
 
 
+
+/*Section deux*/
+.section2{
+    width: 100%;
+  color: #f1f1f1;
+  font-family: Karla;
+
+}
