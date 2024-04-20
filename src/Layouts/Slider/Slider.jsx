@@ -4,9 +4,12 @@ import RigthChevron from '../../assets/right-arrow.svg'
 import './Slider.css'
 
 export default function Slider() {
+  const [sliderIndex, setSlideIndex] = useState(1)
   return (
-    <> 
-       <div className="slider"></div>9
-    </>
+    <div> 
+       <div className="slider">
+        <img src={`/public/img-${sliderIndex}.jpg`} alt="" />
+        </div>
+    </div>
   )
 }
