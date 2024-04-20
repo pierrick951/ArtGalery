@@ -6,3 +6,7 @@
 .slider {
     overflow: hidden;
 }
+
+.navigation-button {
+    width: 35px;
+}
