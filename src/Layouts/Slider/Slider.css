@@ -1,12 +1,24 @@
-.slider img {
+
+.ImgSlider{
     max-width: 500px;
+    height: 400px;
     border-radius: 25px;
 }
 
 .slider {
     overflow: hidden;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navigation-button {
+
     width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    padding-top: 10px;
 }
+

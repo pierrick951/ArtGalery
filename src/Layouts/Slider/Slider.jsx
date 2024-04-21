@@ -21,25 +21,28 @@ export default function Slider() {
   }
 
   useEffect(() => {
-    const intervalID = setInterval(() => toggleImage(1), 2500)
+    const intervalID = setInterval(() => toggleImage(1), 4000)
 
     return () => clearInterval(intervalID)
   }, [])
   return (
     <div>
       <div className="slider">
-        <img src={`/public/img-${sliderIndex}.jpg`} alt="" />
+        <img className='ImgSlider' 
+        src={`/public/img-${sliderIndex}.jpg`} alt="" />
 
-        <button
-          onClick={() => toggleImage(-1)}
-          className="navigation-button prev-button">
-          <img src={LeftChevron} alt="previous image" />
-        </button>
-        <button
-          onClick={() => toggleImage(1)}
-          className="navigation-button next-button">
-          <img src={RigthChevron} alt="next image" />
-        </button>
+        <div className="ButtonBox">
+          <button
+            onClick={() => toggleImage(-1)}
+            className="navigation-button prev-button">
+            <img src={LeftChevron} alt="previous image" />
+          </button>
+          <button
+            onClick={() => toggleImage(1)}
+            className="navigation-button next-button">
+            <img src={RigthChevron} alt="next image" />
+          </button>
+        </div>
       </div>
     </div>
   )
