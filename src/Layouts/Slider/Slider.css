@@ -1,14 +1,8 @@
 
-.SliderTxt {
-
-     height:  100%;
-     width: 30%;
-     background-color: red;
-}
 
 .ImgSlider{
-    max-width: 1500px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     border-radius: 25px;
 }
 

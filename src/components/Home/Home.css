@@ -1,6 +1,6 @@
 .Container {
     width: 100%;
-   height: 5000vh;
+    height: 5000vh;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     object-fit: cover;
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,9 +35,11 @@ h1 {
     h1 {
         font-size: 2.5rem;
     }
+
     header {
         height: 50vh;
     }
+
     .heading2 {
         padding-block: 10px;
         font-size: rem;
@@ -47,7 +49,7 @@ h1 {
         width: 100%;
     }
 
-    
+
 }
 
 
@@ -59,7 +61,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
+
     width: 100%;
     height: auto;
 
@@ -72,8 +74,9 @@ h1 {
     padding-bottom: 50px;
     height: auto;
     width: 85%;
-  
+
 }
+
 .flexContainer {
     display: flex;
     justify-content: space-evenly;
@@ -92,23 +95,25 @@ h1 {
 
 
 
-.secondBox{
+.secondBox {
     width: 20%;
     height: 100%;
     overflow: hidden;
 }
 
-@media(max-width:958px){
+@media(max-width:958px) {
 
-    .secondBox{
+    .secondBox {
         display: none;
     }
-    .heading2{
+
+    .heading2 {
         text-align: center;
         padding-block: 20px;
-       font-size: 2.8rem;
-       padding-inline: 20px;
+        font-size: 2.8rem;
+        padding-inline: 20px;
     }
+
     .firstBox {
         width: 100%;
         overflow: hidden;
@@ -118,9 +123,14 @@ h1 {
 
 
 /*Section deux*/
-.section2{
+.section2 {
     width: 100%;
-  color: #f1f1f1;
-  font-family: Karla;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: #f1f1f1;
+    font-family: Karla;
+    background-image: linear-gradient(118deg, rgb(28, 28, 28) 0%, transparent 73%), repeating-linear-gradient(163deg, rgba(129, 129, 129, 0.1) 0px, rgba(129, 129, 129, 0.1) 1px, transparent 1px, transparent 17px), repeating-linear-gradient(73deg, rgba(129, 129, 129, 0.1) 0px, rgba(129, 129, 129, 0.1) 1px, transparent 1px, transparent 17px), linear-gradient(73deg, rgb(28, 28, 28), rgb(28, 28, 28));
 
 }
