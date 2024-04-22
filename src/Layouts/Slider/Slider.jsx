@@ -26,7 +26,7 @@ export default function Slider() {
     return () => clearInterval(intervalID)
   }, [])
   return (
-    <div>
+    <div className='supremdiv'>
       <div className="slider">
         <img className='ImgSlider' 
         src={`/public/img-${sliderIndex}.jpg`} alt="" />

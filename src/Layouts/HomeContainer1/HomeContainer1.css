@@ -1,14 +1,20 @@
 .Homecontainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
  
+}
+.boxContainer  {
+    padding-right: 30px;
 }
 
 
 .TophomeContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
 }
 .boxtxt {
@@ -84,6 +90,9 @@
             transform: scale(1.2);
          }
         }
+    }
+    .boxContainer  {
+        padding-right: 0px;
     }
 }
 

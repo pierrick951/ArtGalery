@@ -13,6 +13,7 @@ export default function PresentationMusée() {
                 <h2> lorem ipsum</h2>
                 <p>lorem Art Museum based in Lorem, 📍ipsum dolor.
                 </p><br />
+                
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ipsa quas ipsam. Corporis quasi, dignissimos ipsa impedit obcaecati sit at.</p>
 
             </div>

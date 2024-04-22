@@ -1,9 +1,8 @@
 .ContainerSlider {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-
     flex-wrap: wrap;
 }
 
@@ -11,15 +10,33 @@
 .Slider {
     width: auto;
 
+
 }
 
 .SliderTxt {
-     & p {
-        max-width: 400px ;
+    & p {
+        max-width: 400px;
         font-family: Karla;
         font-size: 19px;
         text-align: center;
         line-height: 30px;
         padding-inline: 10px;
-     }
+    }
+}
+
+@media(max-width:750px) {
+    .SliderTxt {
+        width: auto;
+        font-size: 16px;
+        padding-inline: 8px;
+    }
+
+    .ContainerSlider {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+   
+
 }
