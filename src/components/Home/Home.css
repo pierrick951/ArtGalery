@@ -61,7 +61,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     height: auto;
 
@@ -70,7 +69,7 @@ h1 {
 .section1 {
     border-radius: 35px;
     transform: translateY(-80px);
-    background-color: rgb(92, 92, 250);
+    background-color: rgba(30, 190, 123, 0.753);
     padding-bottom: 50px;
     height: auto;
     width: 85%;
@@ -133,15 +132,78 @@ h1 {
     height: auto;
     color: #f1f1f1;
     font-family: Karla;
-    background-image: linear-gradient(118deg, rgb(28, 28, 28) 0%, transparent 73%), repeating-linear-gradient(163deg, rgba(129, 129, 129, 0.1) 0px, rgba(129, 129, 129, 0.1) 1px, transparent 1px, transparent 17px), repeating-linear-gradient(73deg, rgba(129, 129, 129, 0.1) 0px, rgba(129, 129, 129, 0.1) 1px, transparent 1px, transparent 17px), linear-gradient(73deg, rgb(28, 28, 28), rgb(28, 28, 28));
     padding-bottom: 30px;
+    background-image: linear-gradient(118deg, rgb(28, 28, 28) 0%, transparent 73%), repeating-linear-gradient(163deg, rgba(129, 129, 129, 0.1) 0px, rgba(129, 129, 129, 0.1) 1px, transparent 1px, transparent 17px), repeating-linear-gradient(73deg, rgba(129, 129, 129, 0.1) 0px, rgba(129, 129, 129, 0.1) 1px, transparent 1px, transparent 17px), linear-gradient(73deg, rgb(28, 28, 28), rgb(28, 28, 28));
+
 }
 
-.paralaxseconde {
-    overflow: hidden;
+
+
+.thisparalax {
     background-image: url('../../../public/berlin.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
+
+    
+}
+/*Section buns*/
+.otherSection {
     width: 100%;
-    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+
+.boxBuns {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+
+    width: 85%;
+
+}
+
+
+.buns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 35px;
+}
+.kuramata{
+    display: flex;
+    background-image: url('../../../public/kuramata.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    height: 20vh;
+}
+
+.basquiat {
+    display: flex;
+    background-image: url('../../../public/basquiat.jpg');
+    background-attachment: fixed;
+    object-fit: cover;
+    height: 30vh;
+    color: #f1f1f1;
+}
+
+.ghibli {
+    display: flex;
+    background-image: url('../../../public/chihiro.jpg');
+    background-attachment: fixed;
+    object-fit: cover;
+    height: 40vh;
+    color: #f1f1f1;
+}
+.keith {
+    display: flex;
+    background-image: url('../../../public/keith.jpg');
+    background-attachment: fixed;
+    object-fit: cover;
+    height: 40vh;
+    color:black;
 }
