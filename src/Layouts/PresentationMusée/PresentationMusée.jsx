@@ -6,16 +6,22 @@ export default function PresentationMusée() {
         <div className='ContainerSlider'>
 
             <div className='Slider'>
-              <Slider/>
+                <Slider />
             </div>
             <div className='SliderTxt'>
                 <h3>Art Museum of </h3>
-                <h2> lorem ipsum</h2>
-                <p>lorem Art Museum based in Lorem, 📍ipsum dolor.
+                <h2> Berlin</h2>
+                <p></p>
+                <p>lorem Art Museum based in Lorem, 📍Berlin,Germany.
                 </p><br />
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ipsa quas ipsam. Corporis quasi, dignissimos ipsa impedit obcaecati sit at.</p>
 
+                <p>Opening Time </p>
+                <p>every day from 10am - 10pm</p>
+                <div className="linkContainer">
+                    <a href="#">Get TIckets</a>
+                    <a   className='rigthLinks' href="#">
+                        Schedule </a>
+                </div>
             </div>
         </div>
     )
