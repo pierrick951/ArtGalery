@@ -27,7 +27,7 @@
     
 }
 
-@media(max-width:750px) {
+@media(max-width:980px) {
     .ImgSlider {
         width: 250px
     }
@@ -41,5 +41,7 @@
 
     }
 }
+
+
 
 

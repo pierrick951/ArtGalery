@@ -25,6 +25,9 @@ export default function Home() {
         <section className='section2'>
           <PresentationMusée/>
         </section>
+        <section className='paralaxseconde'>
+            
+        </section>
       </main>
     </div>
   )
