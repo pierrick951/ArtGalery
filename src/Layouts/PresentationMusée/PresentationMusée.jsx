@@ -12,14 +12,14 @@ export default function PresentationMusée() {
                 <h3>Art Museum of </h3>
                 <h2> Berlin</h2>
                 <p></p>
-                <p>lorem Art Museum based in Lorem, 📍Berlin,Germany.
+                <p>lorem Art Museum based in 📍Berlin,Germany.
                 </p><br />
 
-                <p>Opening Time </p>
-                <p>every day from 10am - 10pm</p>
+                <p className='opentimep'>Opening Time </p>
+                <p>Every day from 10am - 10pm</p>
                 <div className="linkContainer">
-                    <a href="#">Get TIckets</a>
-                    <a   className='rigthLinks' href="#">
+                    <a className='linkfull' href="#">Get Tickets</a>
+                    <a   className='transparentBackground' href="#">
                         Schedule </a>
                 </div>
             </div>
