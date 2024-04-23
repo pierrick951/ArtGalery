@@ -28,7 +28,6 @@ export default function Home() {
 
         <section className='otherSection'>
           <div className="boxBuns">
-            <div className='kuramata buns'> Kuramata</div>
             <div className='keith buns reverse'>Keith Worlds</div>
             <div className='buns basquiat '> Basquiat</div>
             <div className='buns ghibli reverse'> Studio Ghibli</div>

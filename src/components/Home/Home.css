@@ -174,18 +174,13 @@ h1 {
     margin-bottom: 20px;
     border-radius: 35px;
 }
-.kuramata{
-    display: flex;
-    background-image: url('../../../public/kuramata.jpg');
-    background-attachment: fixed;
-    background-size: contain;
-    height: 20vh;
-}
+
 
 .basquiat {
     display: flex;
     background-image: url('../../../public/basquiat.jpg');
     background-attachment: fixed;
+    filter: brightness(70%) contrast(70%);
     object-fit: cover;
     height: 30vh;
     color: #f1f1f1;
@@ -195,6 +190,7 @@ h1 {
     display: flex;
     background-image: url('../../../public/chihiro.jpg');
     background-attachment: fixed;
+    filter: brightness(50%) contrast(90%);
     object-fit: cover;
     height: 40vh;
     color: #f1f1f1;
@@ -203,6 +199,7 @@ h1 {
     display: flex;
     background-image: url('../../../public/keith.jpg');
     background-attachment: fixed;
+    filter: brightness(70%) contrast(70%);
     object-fit: cover;
     height: 40vh;
     color:black;
