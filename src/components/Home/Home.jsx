@@ -1,5 +1,4 @@
 import HomeContainer1 from '../../Layouts/HomeContainer1/HomeContainer1'
-
 import PresentationMusée from '../../Layouts/PresentationMusée/PresentationMusée'
 import './Home.css'
 export default function Home() {
@@ -24,14 +23,6 @@ export default function Home() {
         </section>
         <section className='section2'>
           <PresentationMusée />
-        </section>
-
-        <section className='otherSection'>
-          <div className="boxBuns">
-            <div className='keith buns reverse'>Keith Worlds</div>
-            <div className='buns basquiat '> Basquiat</div>
-            <div className='buns ghibli reverse'> Studio Ghibli</div>
-          </div>
         </section>
       </main>
     </div>
