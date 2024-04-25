@@ -40,14 +40,6 @@ nav {
     font-family: Karla;
 }
 
-.active {
-    background-color: #4c2f61;
-    border-radius: 35px;
-    padding-inline: 2px;
-    padding: block 5px;
-}
-
-
 
 /* Media queries  */
 
