@@ -31,12 +31,12 @@
 
     & h2 {
         font-size: 2rem;
-        color: rgb(24, 211, 133);
+        color:#f4784f;
     }
 }
 
 .opentimep {
-    color: rgb(24, 211, 133);
+    color: #F49C6C;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 
@@ -60,19 +60,19 @@
 
 .transparentBackground {
     margin-left: 10px;
-    background-color: rgb(26, 170, 110);
+    background-color: #f4784f;
 }
 
 .transparentBackground:hover {
-    background-color: rgb(33, 221, 143);
+    background-color: #ff906a;
 }
 
 .linkfull {
-    border: 2px solid rgb(26, 170, 110);
+    border: 1px solid #F49C6C;
 }
 
 .linkfull:hover {
-    background-color: rgba(33, 221, 143, 0.521);
+    background-color:#dd733a;
 }
 
 @media(max-width:750px) {

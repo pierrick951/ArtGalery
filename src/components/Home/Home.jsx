@@ -27,6 +27,9 @@ export default function Home() {
         <section className='BoxParallax'>
           <div className='Paralax'></div>          
         </section>
+        <section className='AboutSection'>
+
+        </section>
       </main>
     </div>
   )
