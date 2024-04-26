@@ -1,5 +1,5 @@
 import './HomeContainer1.css'
-import kaws from '../../../public/kaws.jpeg'
+import kaws from '../../../public/kaws2.jpeg'
 export default function HomeContainer1() {
     return (
         <div className='Homecontainer'>
