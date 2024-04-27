@@ -1,3 +1,22 @@
 .AboutContainer{
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.AboutBotContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 25px;
+    padding-inline: 15px;
+}
+.boxImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.boxImg img {
+    max-width: 500px;
+    border-radius: 35px;
 }

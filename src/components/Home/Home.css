@@ -155,6 +155,6 @@ h1 {
 }
 .AboutSection {
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-image: repeating-linear-gradient(135deg, rgb(28,28,28) 0px,rgb(28,28,28) 12px,transparent 13px),repeating-linear-gradient(217deg, rgb(28,28,28) 0px,rgb(28,28,28) 12px,transparent 13px),linear-gradient(90deg, rgb(174,90,50),hsla(190,0%,61%,1));
 }
