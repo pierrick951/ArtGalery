@@ -9,6 +9,9 @@ nav {
     padding-inline: 25px;
     z-index: 100;
 }
+nav:hover {
+    background-color:#1c1c1ce7;
+}
 
 
 .nav-ico img {
