@@ -1,22 +1,57 @@
-.AboutContainer{
+.AboutContainer {
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
+
 .AboutBotContainer {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding-block: 25px;
     padding-inline: 15px;
 }
-.boxImg{
+
+.boxImg {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 20px;
 }
+
 .boxImg img {
     max-width: 500px;
+    height: 200px;
     border-radius: 35px;
+}
+.boxImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxtext {
+    max-width: 250px;
+    padding-block: 15px;
+    & p {
+        line-height: 30px;
+    }
+}
+.heading3 {
+    font-size: 3rem;
+    text-align: center;
+    padding-block: 25px;
+}
+
+
+@media(min-width:900px){
+
+    .boxImg{
+        padding-left: 0px;
+    }
+
+
+    
 }
