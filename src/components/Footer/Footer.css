@@ -1,0 +1,13 @@
+.ContainerLink {
+    display: flex;
+}
+
+.listFooter {
+    padding-inline: 25px;
+    & li {
+        list-style: none;
+    }
+    & h3 {
+        padding-block: 10px;
+    }
+}

@@ -1,5 +1,5 @@
 export default function Product() {
   return (
-    <div>Constellation</div>
+    <div>tickets</div>
   )
 }
