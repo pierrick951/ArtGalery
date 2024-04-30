@@ -1,9 +1,6 @@
 .ContainerFooter{
-    height: 30vh;
+    height: auto;
     padding-block: 30px;
-
-
- 
 }
 
 .ContainerLink {
@@ -29,6 +26,19 @@
     color: indianred;
 }
 .copyLettre {
+    padding-block:10px;
+    padding-inline: 10px;
+}
+
+/*Média queries*/
+
+
+@media (max-width:500px){
+   .ContainerFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
     
-    padding-block:10px ;
 }

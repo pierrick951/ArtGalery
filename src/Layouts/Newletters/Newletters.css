@@ -1,12 +1,12 @@
 .containerNewsLetter {
-    display: flex ;
+    display: flex;
     height: 60px;
     align-items: flex-start;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid white;
     /* background-color: red; */
-    
+
 
     & input {
         border: none;
@@ -16,10 +16,12 @@
         text-transform: capitalize;
     }
 }
+
 .InfoLettreLabel {
     padding-inline: 10px;
 }
-.infoLettreBtn{
+
+.infoLettreBtn {
     max-width: 150px;
     padding-block: 10px;
     padding-inline: 15px;
@@ -27,8 +29,15 @@
     border: none;
     border-radius: 5px;
     color: #f1f1f1;
+    cursor: pointer;
 }
-.infoLettreBtn:hover{
+
+.infoLettreBtn:hover {
     background-color: rgb(247, 109, 109);
 
+}
+
+@media (max-width:500px){
+   
+    
 }
