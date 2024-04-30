@@ -1,0 +1,34 @@
+.containerNewsLetter {
+    display: flex ;
+    height: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    /* background-color: red; */
+    
+
+    & input {
+        border: none;
+        background: transparent;
+        font-family: Karla;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+}
+.InfoLettreLabel {
+    padding-inline: 10px;
+}
+.infoLettreBtn{
+    max-width: 150px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    background-color: indianred;
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+}
+.infoLettreBtn:hover{
+    background-color: rgb(247, 109, 109);
+
+}

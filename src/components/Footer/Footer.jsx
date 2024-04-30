@@ -1,38 +1,25 @@
+import Newletters from '../../Layouts/Newletters/Newletters'
+
 import './Footer.css'
 
 
 export default function Footer() {
   return (
-    <div>
+    <div className='ContainerFooter'>
+
       <div className="ContainerLink">
         <div>
           <ul className='listFooter'>
             <h3>Discover</h3>
-            <li>lorem</li>
-            <li>lorem lorem</li>
-            <li>ipsum</li>
-
+            <li>notre staff</li>
+            <li>Ticket</li>
+            <li>activiter</li>
           </ul>
         </div>
-        <div>
-          <ul className='listFooter'>
-            <h3>Visit</h3>
-            <li>lorem</li>
-            <li>lorem lorem</li>
-            <li>ipsum</li>
 
-          </ul>
-        </div>
-        <div>
-          <ul className='listFooter'>
-            <h3>Tikets</h3>
-            <li>lorem</li>
-            <li>lorem lorem</li>
-            <li>ipsum</li>
-
-          </ul>
-        </div>
+      <Newletters />
       </div>
+      <small>	© copyrigth Berlin Muséeum tout droits réserve blablabla</small>
     </div>
   )
 } 
