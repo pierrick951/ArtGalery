@@ -31,12 +31,12 @@
 
     & h2 {
         font-size: 2rem;
-        color:#f4784f;
+        color: indianred;
     }
 }
 
 .opentimep {
-    color: #F49C6C;
+    color: indianred;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 
@@ -60,19 +60,19 @@
 
 .transparentBackground {
     margin-left: 10px;
-    background-color: #f4784f;
+    background-color: rgba(205, 92, 92, 0.534);
 }
 
 .transparentBackground:hover {
-    background-color: #ff906a;
+    background-color: rgba(255, 114, 114, 0.699);
 }
 
 .linkfull {
-    border: 1px solid #F49C6C;
+    border: 1px solid indianred;
 }
 
 .linkfull:hover {
-    background-color:#dd733a;
+    background-color:rgba(205, 92, 92, 0.445);
 }
 
 @media(max-width:750px) {

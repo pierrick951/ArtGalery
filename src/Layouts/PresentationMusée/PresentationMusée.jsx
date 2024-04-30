@@ -1,13 +1,9 @@
 import './PresentationMusée.css'
-import Slider from '../Slider/Slider'
+
 
 export default function PresentationMusée() {
     return (
         <div className='ContainerSlider'>
-
-            <div className='Slider'>
-                <Slider />
-            </div>
             <div className='SliderTxt'>
                 <h3>Art Museum of </h3>
                 <h2> Berlin</h2>
