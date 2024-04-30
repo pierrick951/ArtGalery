@@ -1,16 +1,15 @@
 .ContainerFooter{
     height: 30vh;
     padding-block: 30px;
-    display: flex;
-    flex-direction: column;
 
-    background-color: red;
-    align-items: center;
+
  
 }
 
 .ContainerLink {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 30vh;
 }
 
@@ -28,4 +27,8 @@
 .listFooter li:hover {
     cursor:pointer;
     color: indianred;
+}
+.copyLettre {
+    
+    padding-block:10px ;
 }

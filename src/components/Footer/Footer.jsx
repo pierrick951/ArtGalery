@@ -19,7 +19,7 @@ export default function Footer() {
 
       <Newletters />
       </div>
-      <small>	© copyrigth Berlin Muséeum tout droits réserve blablabla</small>
+      <small className='copyLettre'>	© copyrigth Berlin Muséeum tout droits réserve blablabla</small>
     </div>
   )
 } 
