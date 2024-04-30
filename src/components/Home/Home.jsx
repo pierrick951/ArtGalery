@@ -1,6 +1,6 @@
 import HomeContainer1 from '../../Layouts/HomeContainer1/HomeContainer1'
 import PresentationMusée from '../../Layouts/PresentationMusée/PresentationMusée'
-import About from '../../Layouts/About/About'
+
 import './Home.css'
 export default function Home() {
 
@@ -27,9 +27,6 @@ export default function Home() {
         </section>
         <section className='BoxParallax'>
           <div className='Paralax'></div>          
-        </section>
-        <section className='AboutSection'>
-          <About/>
         </section>
       </main>
     </div>
