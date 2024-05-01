@@ -15,8 +15,9 @@ export default function Navbar() {
 
   return (
     <nav>
-      <a href="" >
+      <a href='#' className="logoLink" >
         <img src={logo} alt="" />
+        <span>Digital Museum</span>
       </a>
       <div className="MainNavLinks">
         <button 
@@ -26,9 +27,9 @@ export default function Navbar() {
       </div>
       <div className={`${showMenu ? "open" : ""}   NavLinks`}>
         <Link to='/' className="Nlink">Home</Link>
-
-        <Link to='/constellation' className="Nlink">Tickets</Link>
+        <Link to='/constellation' className="Nlink">Explore</Link>
         <Link to='/contact' className="Nlink">Contact</Link>
+        <Link to='/contact' className="Nlink">About</Link>
       </div>
     </nav>
   

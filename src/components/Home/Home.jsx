@@ -1,5 +1,4 @@
-import HomeContainer1 from '../../Layouts/HomeContainer1/HomeContainer1'
-import PresentationMusée from '../../Layouts/PresentationMusée/PresentationMusée'
+
 
 import './Home.css'
 export default function Home() {
@@ -16,15 +15,9 @@ export default function Home() {
         <section className='section1'>
           <h2 className='heading2'>A la une</h2>
           <div className="flexContainer">
-            <div className="firstBox">
-              <HomeContainer1 />
-            </div>
-
           </div>
         </section>
-        <section className='section2'>
-          <PresentationMusée />
-        </section>
+    
       
       </main>
     </div>
