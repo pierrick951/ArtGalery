@@ -1,4 +1,6 @@
-
+import React from 'react'
+import BlocHorizontale from '../../Layouts/BlocHorizontale/BlocHorizontale'
+import DeviceBloc from '../../Layouts/DeviceBloc/DeviceBloc'
 
 import './Home.css'
 export default function Home() {
@@ -6,20 +8,17 @@ export default function Home() {
   return (
     <div className="Container">
       <header>
-        <h1>Art Museum </h1>
-        <p className='under-heading'>of</p>
+        <h1>A Beautiful</h1>
+        <h1> Adventure Await</h1>
       </header>
-
-
-      <main className='centerContainer'>
-        <section className='section1'>
-          <h2 className='heading2'>A la une</h2>
-          <div className="flexContainer">
-          </div>
-        </section>
-    
-      
-      </main>
+   <main>
+    <div className="canvas1">
+     <BlocHorizontale/>
+    </div>
+    <div className="canvas2">
+      <DeviceBloc/>
+    </div>
+   </main>
     </div>
   )
 }

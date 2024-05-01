@@ -1,0 +1,54 @@
+.slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.blocHori {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    width: 300vw;
+
+}
+
+.boxHori {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.one {
+
+    background-color:#d1b5b5;
+    & p {
+        font-size: 10px;
+    }
+}
+
+.two {
+    background-color: rgb(170, 75, 75);
+}
+
+.three {
+    background-color:  #8380af;
+}
