@@ -30,10 +30,7 @@ h1 {
     color: var(--ligth-white);
     font-family: Karla;
     text-shadow: 1px 1px 30px black;
-    animation-duration: 6s;
-    /* Réduire la durée de l'animation */
-    animation-name: slidein;
-    animation-iteration-count: infinite;
+    
 }
 
 @media (max-width: 500px) {
@@ -48,24 +45,7 @@ h1 {
     }
 }
 
-@keyframes slidein {
-    0% {
-        transform: translateY(0);
-    }
 
-    20% {
-        transform: translateY(20px);
-    }
-
-    60% {
-        transform: translateY(30px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-
-}
 
 
 /* bloc horizontale et vertical*/

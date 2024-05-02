@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    background-color:#1c1c1c;
 }
 
 .blocHori {
@@ -36,19 +37,3 @@
 
 
 
-
-.one {
-
-    background-color:#d1b5b5;
-    & p {
-        font-size: 10px;
-    }
-}
-
-.two {
-    background-color: rgb(170, 75, 75);
-}
-
-.three {
-    background-color:  #8380af;
-}
