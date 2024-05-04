@@ -10,6 +10,10 @@ export default function BlocHorizontale() {
                       <div>
                         <img src={art} alt="" />
                       </div>
+                      <div className="wrapTxt">
+                        <h1>lorem</h1>
+                        <p>lor</p>
+                      </div>
                 </div>
                 <div className="slide two">slide  two </div>
                 <div className="slide three">slide tree</div>
