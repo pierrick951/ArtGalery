@@ -9,7 +9,7 @@
 }
 
 header {
-    background-image: radial-gradient(circle at bottom center, rgb(54, 52, 128) 0%, #363480 2%, rgb(85, 78, 139) 2%, rgb(85, 78, 139) 8%, rgb(116, 104, 149) 8%, rgb(116, 104, 149) 18%, rgb(147, 130, 160) 18%, rgb(147, 130, 160) 26%, rgb(178, 155, 171) 26%, rgb(178, 155, 171) 29%, #d1b5b5 29%, #d1b5b5 31%, transparent 31%, transparent 100%), radial-gradient(circle at top center, rgb(54, 52, 128) 0%, rgb(54, 52, 128) 3%, rgb(85, 78, 139) 3%, rgb(85, 78, 139) 9%, rgb(116, 104, 149) 9%, rgb(116, 104, 149) 12%, rgb(147, 130, 160) 12%, rgb(147, 130, 160) 20%, rgb(178, 155, 171) 20%, rgb(178, 155, 171) 30%, rgb(209, 181, 181) 30%, rgb(209, 181, 181) 32%, transparent 32%, transparent 100%), radial-gradient(circle at center left, rgb(54, 52, 128) 0%, rgb(54, 52, 128) 4%, rgb(85, 78, 139) 4%, rgb(85, 78, 139) 10%, rgb(116, 104, 149) 10%, rgb(116, 104, 149) 15%, rgb(147, 130, 160) 15%, rgb(147, 130, 160) 18%, rgb(178, 155, 171) 18%, rgb(178, 155, 171) 24%, rgb(209, 181, 181) 24%, rgb(209, 181, 181) 26%, transparent 26%, transparent 100%), radial-gradient(circle at center right, rgb(54, 52, 128) 0%, rgb(54, 52, 128) 3%, rgb(85, 78, 139) 3%, rgb(85, 78, 139) 9%, rgb(116, 104, 149) 9%, rgb(116, 104, 149) 12%, rgb(147, 130, 160) 12%, rgb(147, 130, 160) 15%, rgb(178, 155, 171) 15%, rgb(178, 155, 171) 21%, rgb(209, 181, 181) 21%, rgb(209, 181, 181) 24%, rgb(240, 207, 192) 24%, rgb(240, 207, 192) 100%);
+    background-image: url('../../assets/river.jpg');
     background-size: 100px 100px;
     height: 100vh;
     width: 100%;

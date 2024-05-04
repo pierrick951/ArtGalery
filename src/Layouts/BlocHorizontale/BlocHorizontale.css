@@ -1,9 +1,6 @@
 .slide {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
    
     background-color:#1c1c1c;
 }
@@ -23,6 +20,7 @@
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 
 }
@@ -31,17 +29,24 @@
     display: none;
 }
 
-.one img {
-    width: 800px;
-}
-
-.one {
+/* .one  {
     background-color: red;
+} */
+
+.oneBox1{
+
+    width: 50%;
+    overflow: hidden;
+    margin-block: 20px;
+   & img {
+    border-radius: 35px;
+    width: 100%;
+    padding: 20px;
+    
+   }
 }
 
-
-
-
-
-
+.oneBox1 img:hover {
+    filter: invert(100%);
+}
 
