@@ -29,9 +29,10 @@
     display: none;
 }
 
-/* .one  {
-    background-color: red;
-} */
+ .one  {
+    display: flex;
+    flex-direction: row;
+} 
 
 .oneBox1{
 
@@ -39,14 +40,40 @@
     overflow: hidden;
     margin-block: 20px;
    & img {
-    border-radius: 35px;
+
     width: 100%;
     padding: 20px;
     
    }
+   & h1{
+    font-family: Karla;
+   }
 }
 
 .oneBox1 img:hover {
+    filter: invert(100%);
+}
+
+.oneBox2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+     & p {
+        width: 200px;
+        font-size: 25x;
+        font-family: Karla;
+        padding-block: 50px;
+     }
+    & img {
+         height: 400px;
+    }
+
+}
+
+.oneBox2 img:hover {
     filter: invert(100%);
 }
 
