@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
    
-    background-color:#1c1c1c;
+    background-color:#1b1b1b;
 }
 
 .blocHori {
@@ -46,7 +46,8 @@
     
    }
    & h1{
-    font-family: Karla;
+    font-family: Jaro;
+    font-weight: 200;
    }
 }
 
@@ -64,7 +65,7 @@
      & p {
         width: 200px;
         font-size: 25x;
-        font-family: Karla;
+        font-family: Jaro;
         padding-block: 50px;
      }
     & img {
@@ -77,3 +78,18 @@
     filter: invert(100%);
 }
 
+
+
+/*slide2*/
+
+.two {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+
+}
+
+.twoBox1 {
+    width: 50%;
+    background-color: orange;
+}
