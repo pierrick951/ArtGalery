@@ -1,8 +1,8 @@
 import './BlocHorizontale.css'
 import art from '../../assets/art.jpg'
 import ahand from '../../assets/handArt.avif'
-import glitch from '../../../public/glitch.jpg'
 import glitch2 from '../../../public/glitch3.avif'
+import vapo from '../../../public/vapo.jpg'
 
 
 export default function BlocHorizontale() {
@@ -33,7 +33,12 @@ export default function BlocHorizontale() {
         </div>
         <div className="slide three">
           <div className="threebox1">
+            <img src={vapo} alt="" />
+          </div>
+          <div className="threebox2">
+
             <img src="https://i.pinimg.com/originals/d9/0d/7e/d90d7ed248aefeae4148c4cfe616ba84.gif" alt="" />
+            <h2>RUN AWAY.</h2>
           </div>
           </div>
       </div>

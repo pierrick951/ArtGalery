@@ -10,7 +10,7 @@
     flex-direction: row;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
-    width: 300vw;
+    width: 250vw;
 
 }
 
@@ -88,23 +88,22 @@
 
 .two {
     display: flex;
-    flex-direction: row;
-   
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .twoBox1 {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 
     & img {
-        object-fit: cover;
         width: 85%;
-        padding-block: 15px;
-      
+
 
     }
 
@@ -114,20 +113,63 @@
     }
 }
 
-.twoBox1 img:hover,.twoBox2 img:hover {
+.twoBox1 img:hover,
+.twoBox2 img:hover {
     filter: invert(100%);
 }
 
 .twoBox2 {
     display: flex;
+
     width: 50%;
+    height: 100%;
+
     justify-content: center;
     align-items: end;
+
     & img {
-        width: 150px;
-        object-fit: cover;
-         height: 100%;
-       
+        width: 250px;
+        padding-bottom: 40px;
+
+
+
     }
 }
 
+/*Styleslide 3*/
+
+.three {
+    display: flex;
+    flex-direction: row;
+}
+
+.threebox1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    & img {
+        height: 80%;
+    }
+}
+.threebox1 img:hover {
+    filter:invert(100%)
+}
+.threebox2 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    & img {
+        height: 200px;
+        
+    }
+}
+
+.threebox2 img:hover {
+    filter:invert(100%)}
