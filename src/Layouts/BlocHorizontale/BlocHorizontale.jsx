@@ -2,6 +2,7 @@ import './BlocHorizontale.css'
 import art from '../../assets/art.jpg'
 import ahand from '../../assets/handArt.avif'
 import glitch from '../../../public/glitch.jpg'
+import glitch2 from '../../../public/glitch3.avif'
 
 
 export default function BlocHorizontale() {
@@ -26,7 +27,7 @@ export default function BlocHorizontale() {
             <img src={glitch} alt="" />
           </div>
           <div className="twoBox2">
-            <img src={glitch} alt="" />
+            <img src={glitch2} alt="" />
           </div>
         </div>
         <div className="slide three">slide tree</div>
