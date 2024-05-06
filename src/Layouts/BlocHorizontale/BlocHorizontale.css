@@ -1,8 +1,8 @@
 .slide {
     width: 100%;
     height: 100vh;
-   
-    background-color:#1b1b1b;
+
+    background-color: #1b1b1b;
 }
 
 .blocHori {
@@ -29,47 +29,51 @@
     display: none;
 }
 
- .one  {
+.one {
     display: flex;
     flex-direction: row;
-} 
+}
 
-.oneBox1{
+.oneBox1 {
 
     width: 50%;
     overflow: hidden;
     margin-block: 20px;
-   & img {
 
-    width: 100%;
-    padding: 20px;
-    
-   }
-   & h1{
-    font-family: Jaro;
-    font-weight: 200;
-   }
+    & img {
+
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    & h1 {
+        font-family: Jaro;
+        font-weight: 200;
+    }
 }
 
 .oneBox1 img:hover {
     filter: invert(100%);
 }
 
-.oneBox2{
+.oneBox2 {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-     & p {
+
+    & p {
         width: 200px;
         font-size: 25x;
         font-family: Jaro;
         padding-block: 50px;
-     }
+    }
+
     & img {
-         height: 400px;
+        height: 400px;
     }
 
 }
@@ -85,11 +89,45 @@
 .two {
     display: flex;
     flex-direction: row;
-    background-color: red;
+   
 
 }
 
 .twoBox1 {
-    width: 50%;
-    background-color: orange;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+    & img {
+        object-fit: cover;
+        width: 85%;
+        padding-block: 15px;
+      
+
+    }
+
+    & h3 {
+        font-family: Jaro;
+        font-size: 25px;
+    }
 }
+
+.twoBox1 img:hover,.twoBox2 img:hover {
+    filter: invert(100%);
+}
+
+.twoBox2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: end;
+    & img {
+        width: 150px;
+        object-fit: cover;
+         height: 100%;
+       
+    }
+}
+

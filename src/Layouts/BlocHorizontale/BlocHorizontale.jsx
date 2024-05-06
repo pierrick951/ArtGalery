@@ -24,13 +24,18 @@ export default function BlocHorizontale() {
         </div>
         <div className="slide two">
           <div className="twoBox1">
-            <img src={glitch} alt="" />
+            <img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHVkMHduejZxMmc5dHZ4bXJoZHNzZmU2Yzd6bmkxd2kyczJ3Z282aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tHjHlQXMktlhwuZJun/giphy.gif' alt="" />
+            <h3>Can you hear me ? </h3>
           </div>
           <div className="twoBox2">
             <img src={glitch2} alt="" />
           </div>
         </div>
-        <div className="slide three">slide tree</div>
+        <div className="slide three">
+          <div className="threebox1">
+            <img src="https://i.pinimg.com/originals/d9/0d/7e/d90d7ed248aefeae4148c4cfe616ba84.gif" alt="" />
+          </div>
+          </div>
       </div>
     </div>
   )
